@@ -1,1 +1,228 @@
-
+/*-----------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  /* ul li {
+    list-style: none;
+  }
+   */
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+  
+  /*-------------------------*/
+  
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.avatar{
+    border-radius: 50%;
+height:336px;
+}
+.block1{
+    background-color:#1C4A3F;
+    width: 630px;
+    padding-left:30px;
+    padding-top: 20px;
+    color:white;
+    padding-bottom: 100px;
+}
+.block2 {
+    background-color: #E5E5E5;
+    width: 100%;
+    padding-left: 30px;
+}
+.wrapper {
+    display: flex;
+}
+.block1-name {
+    font-size: 32px;
+    font-weight: 300;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+.block1-job {
+    font-size: 24px;
+    color: #CACACA;
+    margin-bottom: 55px;
+}
+.block1-contacts-text {
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 60px;
+    font-size: 24px;
+    margin-bottom: 50px;
+    padding: 30px 0 0 5px;
+}
+.block1-skills {
+    margin-top: 20px;
+}
+.block1-skills-title {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.block1-skills-item {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+.block1-hobbies-title {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.block1-hobbies-text {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.block1-socialmedia-title {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.block1-socialmedia-image {
+    width: 50px;
+    height: 50px;
+    margin-right:50px;
+}
+.block1-year {
+    text-align: center; 
+    margin-top: 40px;
+    font-size:20px;
+}
+.block2-about-title {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 70px;
+    color: black;
+    margin-bottom: 40px;
+}
+.block2-about-text {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.block2-education-title {
+  font-size: 30px;
+    font-weight: 300;
+    margin-top:70px;
+}
+.block2-about-text {
+  font-size: 20px;
+  line-height:normal;
+}
+.block2-education-text {
+  display: flex;
+}
+.block2-education-text-years {
+  margin-left: 85px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.block2-education-text-university {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-left: 150px;
+  line-height:normal;
+}
+.class-languages-title {
+  font-size: 30px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.class-languages-unit {
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: normal;
+}
+.block2-projects-title {
+  font-size: 30px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.block2-projects-text {
+  font-size: 20px;
+}
